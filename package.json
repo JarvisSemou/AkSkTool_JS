@@ -1,0 +1,8 @@
+{
+  "name": "AkSkTool_JS",
+  "version": "1.0.0",
+  "description": "http interface ak sk authenticate tool for clink2",
+  "main": "AkSkTool.js",
+  "author": "Jarvis Semou",
+  "license": "MIT"
+}
