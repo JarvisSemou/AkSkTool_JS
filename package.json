@@ -1,0 +1,18 @@
+{
+  "name": "aksk_tool_js",
+  "version": "1.0.0",
+  "description": "http interface ak sk authenticate tool for clink2",
+  "main": "src/main/AkSkTool.js",
+  "author": "Jarvis Semou",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JarvisSemou/AkSkTool_JS"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "eslint": "^8.26.0",
+    "npm-packlist": "^7.0.2"
+  }
+}
