@@ -23,7 +23,7 @@ npm install aksk_tool_js
 1.import
 
 ```javascript
-import { HttpMethod,AkSkTool } from "ak_sk_tool/src/main/AkSkTool.js"
+import { HttpMethod,AkSkTool } from "aksk_tool_js"
 ```
 
 2.generated clink2 authentication params
