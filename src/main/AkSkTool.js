@@ -312,12 +312,12 @@ function getDomain(url) {
 /** 生成实时时间戳 */
 function genCurrentTimestamp() {
     let date = new Date()
-    let year = date.getFullYear()
-    let month = date.getMonth() + 1
-    let dayOfMonth = date.getDate()
-    let hours = date.getHours()
-    let minunes = date.getMinutes()
-    let seconds = date.getSeconds()
+    let year = date.getUTCFullYear()
+    let month = date.getUTCMonth() + 1
+    let dayOfMonth = date.getUTCDate()
+    let hours = date.getUTCHours()
+    let minunes = date.getUTCMinutes()
+    let seconds = date.getUTCSeconds()
     return `${year}-${toXXFormatNum(month)}-${toXXFormatNum(dayOfMonth)}T${toXXFormatNum(hours)}:${toXXFormatNum(minunes)}:${toXXFormatNum(seconds)}Z`
 }
 

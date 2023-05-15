@@ -2,7 +2,7 @@
 
  http interface ak sk authenticate tool for clink2
 
-latest version : 1.0.0
+latest version : 2.0.0
 
 ## install
 
