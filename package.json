@@ -11,8 +11,10 @@
     "url": "https://github.com/JarvisSemou/AkSkTool_JS"
   },
   "dependencies": {
-    "crypto-js": "^4.1.1",
-    "eslint": "^8.26.0",
-    "npm-packlist": "^7.0.2"
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "8.26.0",
+    "npm-packlist": "^7.0.4"
   }
 }
